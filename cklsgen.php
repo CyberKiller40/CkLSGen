@@ -56,7 +56,7 @@ shuffle($stories);
 
 for($i=0;$i<($num-1);$i++)
 {
-	print($i . ". " . $stories[$i] . "\n");
+	print($i+1 . ". " . $stories[$i] . "\n");
 }
 
 print($i+1 . ". Ostateczna bitwa\n"); //ostatni wpis, z oryginalnych
