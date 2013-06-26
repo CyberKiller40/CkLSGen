@@ -21,36 +21,49 @@
 
 $num=9; //ilość scenek do wylosowania
 
-$stories=array(	"Bełkoczący starzec", //oryginalne
-		"Zasadzka kultystów",
-		"Ukryty pokój w bibliotece",
-		"Dotarcie do jaskini",
-		"Koszmar w ciemności",
-		"Zyskanie przyjaciela",
-		"Pościg w góry",
-		"Załamanie pogody",
-		"Stare drzewo", //by CK
-		"Tajemniczy kloszard",
-		"Hałas w lesie",
-		"Samotna latarnia",
-		"Zakurzona księga",
-		"Rozbite skrzynie",
-		"Drewniana figurka",
-		"Obsydianowy posąg",
-		"Uciekający pociąg",
-		"Nowi wrogowie",
-		"Nadmorskie urwisko",
-		"Ponure dziecko",
-		"Wypadek na drodze", //by Gandalf
-		"Wściekły pies",
-		"Tajemnicze zjawisko",
-		"Wyścig z czasem",
-		"Świadkowie morderstwa",
-		"Śmiertelne niebezpieczeństwo",
-		"Zagubieni w lesie",
-		"Oskarżeni o przestępstwo",
-		"Rozgadany niemowa"
-		);
+$stories=array(	
+	"Bełkoczący starzec", //oryginalne
+	"Zasadzka kultystów",
+	"Ukryty pokój w bibliotece",
+	"Dotarcie do jaskini",
+	"Koszmar w ciemności",
+	"Zyskanie przyjaciela",
+	"Pościg w góry",
+	"Załamanie pogody",
+	"Stare drzewo", //by CK
+	"Tajemniczy kloszard",
+	"Hałas w lesie",
+	"Samotna latarnia",
+	"Zakurzona księga",
+	"Rozbite skrzynie",
+	"Drewniana figurka",
+	"Obsydianowy posąg",
+	"Uciekający pociąg",
+	"Nowi wrogowie",
+	"Nadmorskie urwisko",
+	"Ponure dziecko",
+	"Otwarty grób",
+	"Rozbity samochód",
+	"Wyłamane drzwi",
+	"Wypalone świece",
+	"Park w deszczu",
+	"Spotkanie w barze",
+	"Biuro detektywa",
+	"Malowidło na murze",
+	"Wściekły pies",
+	"Martwe ptaki",
+	"Figurki z origami",
+	"Dziura w ziemi",
+	"Wypadek na drodze", //by Gandalf
+	"Wściekły pies",
+	"Tajemnicze zjawisko",
+	"Wyścig z czasem",
+	"Świadkowie morderstwa",
+	"Śmiertelne niebezpieczeństwo",
+	"Zagubieni w lesie",
+	"Oskarżeni o przestępstwo",
+	"Rozgadany niemowa"
+);
 
 shuffle($stories);
 
