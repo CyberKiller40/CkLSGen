@@ -22,7 +22,8 @@
 $num=9; //ilość scenek do wylosowania
 
 $stories=array(	
-	"Bełkoczący starzec", //oryginalne
+	//oryginalne
+	"Bełkoczący starzec",
 	"Zasadzka kultystów",
 	"Ukryty pokój w bibliotece",
 	"Dotarcie do jaskini",
@@ -30,7 +31,8 @@ $stories=array(
 	"Zyskanie przyjaciela",
 	"Pościg w góry",
 	"Załamanie pogody",
-	"Stare drzewo", //by CK
+	//by CK
+	"Stare drzewo",
 	"Tajemniczy kloszard",
 	"Hałas w lesie",
 	"Samotna latarnia",
@@ -54,7 +56,8 @@ $stories=array(
 	"Martwe ptaki",
 	"Figurki z origami",
 	"Dziura w ziemi",
-	"Wypadek na drodze", //by Gandalf
+	//by Gandalf
+	"Wypadek na drodze",
 	"Wściekły pies",
 	"Tajemnicze zjawisko",
 	"Wyścig z czasem",
