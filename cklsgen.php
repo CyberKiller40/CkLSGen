@@ -56,6 +56,10 @@ $stories=array(
 	"Martwe ptaki",
 	"Figurki z origami",
 	"Dziura w ziemi",
+	"Wycie w nocy",
+	"Płacząca wierzba",
+	"Pusty parking",
+	"Plama na drodze",
 	//by Gandalf
 	"Wypadek na drodze",
 	"Wściekły pies",
@@ -72,9 +76,17 @@ shuffle($stories);
 
 for($i=0;$i<($num-1);$i++)
 {
-	print($i+1 . ". " . $stories[$i] . "\n");
+	if($num>9 && $i+1<10)
+	{
+		$space=" ";
+	}
+	else
+	{
+		$space="";
+	}
+	print($space . ($i+1) . ". " . $stories[$i] . "\n");
 }
 
-print($i+1 . ". Ostateczna bitwa\n"); //ostatni wpis, z oryginalnych
+print($space . ($i+1) . ". Ostateczna bitwa\n"); //ostatni wpis, z oryginalnych
 
 ?>
