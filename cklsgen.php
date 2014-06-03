@@ -69,7 +69,25 @@ $stories=array(
 	"Śmiertelne niebezpieczeństwo",
 	"Zagubieni w lesie",
 	"Oskarżeni o przestępstwo",
-	"Rozgadany niemowa"
+	"Rozgadany niemowa",
+	//by MaQ
+	"Zaniedbany cmentarz",
+	"Opuszczony kosciół",
+	"Kamienny gargulec",
+	"Rodzinna krypta",
+	"Przewrócone drzewo",
+	"Wykolejony pociąg",
+	"Pomnik w lesie",
+	"Żelazny most",
+	"Ruiny zamku",
+	"Zniszczona droga",
+	"Opuszczona kamienica",
+	"Natrętny żebrak",
+	"Agresywni młodociani",
+	"Nieprzychylny policjant",
+	"Odrażająca prostytutka",
+	"Śmierdzący pies",
+	"Zwłoki w krzakach"
 );
 
 shuffle($stories);
