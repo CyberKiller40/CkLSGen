@@ -72,7 +72,7 @@ $stories=array(
 	"Rozgadany niemowa",
 	//by MaQ
 	"Zaniedbany cmentarz",
-	"Opuszczony kosciół",
+	"Opuszczony kościół",
 	"Kamienny gargulec",
 	"Rodzinna krypta",
 	"Przewrócone drzewo",
