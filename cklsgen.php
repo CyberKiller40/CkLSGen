@@ -21,7 +21,7 @@
 
 $num=9; //ilość scenek do wylosowania
 
-$stories=array(	
+$stories=array(
 	//oryginalne
 	"Bełkoczący starzec",
 	"Zasadzka kultystów",
@@ -90,7 +90,18 @@ $stories=array(
 	"Zwłoki w krzakach"
 );
 
+$finals=array(
+	//oryginalne
+	"Ostateczna bitwa",
+	//by CK
+	"Zakończenie śledztwa",
+	"Finalne rozstrzygnięcie",
+	"Konfrontacja",
+	"Ostatnie starcie"
+);
+
 shuffle($stories);
+shuffle($finals);
 
 for($i=0;$i<($num-1);$i++)
 {
@@ -105,6 +116,6 @@ for($i=0;$i<($num-1);$i++)
 	print($space . ($i+1) . ". " . $stories[$i] . "\n");
 }
 
-print($space . ($i+1) . ". Ostateczna bitwa\n"); //ostatni wpis, z oryginalnych
+print($space . ($i+1) . ". " . $finals[0] . "\n"); //ostatni wpis
 
 ?>
